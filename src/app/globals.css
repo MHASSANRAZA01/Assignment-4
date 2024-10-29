@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: orange;
+  font-family: 'poppins',sans-serif;
+  color: white;
+}
+
+ 
+.logo {
+  display: flex;
+  font-size: 20px;
+  color: white;
+  transition: 0.3s ease;
+
+}
+
+.list{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+   
+
+}
+
+
+@media (max-width: 412px) {
+  .list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+     
+  
+  }
+
+  .logo {
+    display: flex;
+    font-size: 15px;
+    color: white;
+    transition: 0.3s ease;
+  
+  }
+
+
+
+}
+
+ 
+
+.home:hover {
+  color: #0f0c0c;
+  transition: 0.3s ease;
+}
+.about:hover {
+  color: #0f0c0c;
+  transition: 0.3s ease;
+}
+
+.contact:hover {
+  color: #0f0c0c;
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  color: #0f0c0c;
+}
+.Blogs:hover {
+  color: black;
+}
+
+
+.parentContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.childContainer {
+  width: 290px;
+  height: 380px;
+  background-color: rgb(226, 223, 223);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px;
+  transition-duration: 0.5s;
+  border: 3px solid white;
+}
+
+.childContainer:hover {
+  border: 3px solid orange;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+   rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 140px;
+  background-color: rgb(107, 50, 107);
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.title {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 20px;
+
+}
+
+.readMore {
+  width: 40%;
+  margin-top: 10px;
+  background-color: orange;
+  
+  font-size: 10px;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  transition-duration: 0.3s;
+}
+
+.readMore:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  color: black;
+}
+
+
+/* photo */
+
+.photo{
+  /* display: flex; */
+  bottom: 10px;
+  margin-left: auto
+}
+
+
+
+
+ 
+ 
