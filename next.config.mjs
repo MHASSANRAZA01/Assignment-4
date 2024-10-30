@@ -2,11 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    protocol: "http",
-    hostname: "https://assignment-4-rp3q.vercel.app/",
-    port: "",
-    pathname: "./Public/images/**",
+    formats: ['image/avif', 'image/webp'],
   },
 };
 
 export default nextConfig;
+
