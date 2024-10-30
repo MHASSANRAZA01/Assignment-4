@@ -1,9 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import image from "../image/photo.png"
-import web from "../asset/web.png"
-import mouse from "../asset/mou.png"
-import ai from "../asset/ai.png"
+
 
 
 
@@ -13,7 +10,7 @@ export default function Blogs() {
         <div className="childContainer bounce-in-right">
           <div className="imageContainer"> 
             <Image
-            src={"/images/photo.png"} 
+            src="/images/photo.png"
             alt="image"
             width={500}
             height={500}
@@ -34,7 +31,7 @@ export default function Blogs() {
         <div className="childContainer bounce-in-right">
           <div className="imageContainer">
           <Image
-            src={"/images/mou.png"} 
+            src="/images/mou.png"
             alt="image"
             width={500}
             height={500}
