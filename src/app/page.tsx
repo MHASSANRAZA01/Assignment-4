@@ -8,7 +8,7 @@ export default function Blogs() {
         <div className="imageContainer">
           <img
           
-            src="/images/mouse6.webp"
+            src="/images/photo.png"
             alt="image"
             width={500}
             height={500}
