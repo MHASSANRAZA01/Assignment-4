@@ -7,6 +7,7 @@ export default function Blogs() {
       <div className="childContainer bounce-in-right">
         <div className="imageContainer">
           <Image
+            unoptimized
             src="/images/mouse6.webp"
             alt="image"
             width={500}
