@@ -13,7 +13,7 @@ export default function Blogs() {
         <div className="childContainer bounce-in-right">
           <div className="imageContainer"> 
             <Image
-            src={"/image/photo.png"} 
+            src={"/images/photo.png"} 
             alt="image"
             width={500}
             height={500}
@@ -34,7 +34,7 @@ export default function Blogs() {
         <div className="childContainer bounce-in-right">
           <div className="imageContainer">
           <Image
-            src={"/asset/mou.png"} 
+            src={"/images/mou.png"} 
             alt="image"
             width={500}
             height={500}
@@ -56,7 +56,7 @@ export default function Blogs() {
         <div className="childContainer bounce-in-right">
           <div className="imageContainer">
           <Image
-            src={"/asset/ai.png"} 
+            src={"/images/ai.png"} 
             alt="image"
             width={500}
             height={500}
@@ -76,7 +76,7 @@ export default function Blogs() {
         <div className="childContainer bounce-in-right">
           <div className="imageContainer">
           <Image
-            src={"/asset/web.png"} 
+            src={"/images/web.png"} 
             alt="image"
             width={500}
             height={500}
