@@ -15,7 +15,7 @@ export default function Blogs() {
       <div className="childContainer bounce-in-right">
         <div className="imageContainer">
           <Image
-            src={"images/photo.png"}
+            src={"/images/photo.png"}
             alt="image"
             width={500}
             height={500}
