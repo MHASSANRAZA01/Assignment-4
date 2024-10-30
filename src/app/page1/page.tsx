@@ -1,11 +1,11 @@
  
 import Link from 'next/link'
 import Image from 'next/image'
-import image from "/asset/mackbook.png"
-import DELL from "/asset/DELL.webp"
-import asus from "/asset/asus.jpg"
-import OIP from "/asset/OIP.jpeg"
-import hp from "/asset/hp.jpeg"
+import image from "/images/mackbook.png"
+import DELL from "/images/DELL.webp"
+import asus from "/images/asus.jpg"
+import OIP from "/images/OIP.jpeg"
+import hp from "/images/hp.jpeg"
 
 const page = () => {
   return (
@@ -17,7 +17,7 @@ const page = () => {
         top 10 laptops in the world for 2024 based on <b> performance, design, price, and features.</b> <br />
         </p> <br />
         <Image className='mt-10 ml-20'
-        src={"/asset/mackbook.png"}
+        src={"/images/mackbook.png"}
         alt='Mack Book Photo'
         width={500}
         height={500}
@@ -40,14 +40,14 @@ const page = () => {
   {/* 2 */}
 
   <Image className='mt-10 ml-20'
-        src={"/asset/DELL.webp"}
+        src={"/images/DELL.webp"}
         alt='ASUS ROG Zephyrus G14'
         width={500}
         height={500}
         /> <br />
         <br />
         <h1 className='ml-20 text-2xl'> 2. Dell XPS 15 (2024)</h1> <br />
-       <ul className='ml-20 list-disc md:ml-0'>
+       <ul className='ml-20 list-disc'>
         <li className='mt-2'><b>Processor</b>: Intel Core i9-13900H</li>
         <li className='mt-2'><b>RAM</b>: 32GB / 64GB</li>
         <li className='mt-2'><b>Storage</b>: 512GB - 4TB SSD</li>
@@ -61,7 +61,7 @@ const page = () => {
        </ul>
         <br />
         <Image className='mt-10 ml-20'
-        src={"/asset/asus.jpg"}
+        src={"/images/asus.jpg"}
         alt='Mack Book Photo'
         width={500}
         height={500}
@@ -83,7 +83,7 @@ const page = () => {
         <br />
         
         <Image className='mt-10 ml-20'
-        src={"/asset/OIP.jpeg"}
+        src={"/images/OIP.jpeg"}
         alt=' Lenovo ThinkPad X1 Carbon Gen 11'
         width={500}
         height={500}
@@ -104,7 +104,7 @@ const page = () => {
        </ul>
         <br />
         <Image className='mt-10 ml-20'
-        src={"/asset/hp.jpeg"}
+        src={"/images/hp.jpeg"}
         alt=' Lenovo ThinkPad X1 Carbon Gen 11'
         width={500}
         height={500}

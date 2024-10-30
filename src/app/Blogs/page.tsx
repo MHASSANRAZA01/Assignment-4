@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import image from "../asset/photo.png";
+import image from "../images/photo.png";
 import page from "../page1/page";
 import page2 from "../page2/page";
 import page3 from "../page3/page";
 import page4 from "../page4/page";
-import web from "../asset/web.png";
-import mouse from "../asset/mou.png";
-import ai from "../asset/ai.png";
+import web from "../images/web.png";
+import mouse from "../images/mou.png";
+import ai from "../images/ai.png";
 
 export default function Blogs() {
   return (
@@ -15,7 +15,7 @@ export default function Blogs() {
       <div className="childContainer bounce-in-right">
         <div className="imageContainer">
           <Image
-            src={"/asset/photo.png"}
+            src={"images/photo.png"}
             alt="image"
             width={500}
             height={500}
@@ -40,7 +40,7 @@ export default function Blogs() {
 
       <div className="childContainer bounce-in-right">
         <div className="imageContainer">
-          <Image src={"/asset/mou.png"} alt="image" width={500} height={500} />
+          <Image src={"/images/mou.png"} alt="image" width={500} height={500} />
         </div>
         <b>
           <h1 className="title">Top 5 Mouse in the World</h1>
@@ -59,7 +59,7 @@ export default function Blogs() {
       {/* box no 3 */}
       <div className="childContainer bounce-in-right">
         <div className="imageContainer">
-          <Image src={"/asset/ai.png"} alt="image" width={500} height={500} />
+          <Image src={"/images/ai.png"} alt="image" width={500} height={500} />
         </div>
         <h1 className="title">
           {" "}
@@ -80,7 +80,7 @@ export default function Blogs() {
 
       <div className="childContainer bounce-in-right">
         <div className="imageContainer">
-          <Image src={"/asset/web.png"} alt="image" width={500} height={500} />
+          <Image src={"/images/web.png"} alt="image" width={500} height={500} />
         </div>
         <h1 className="title">
           <b>Top 10 Freelancing Websites</b>

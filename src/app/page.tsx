@@ -1,10 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import image from "../image/photo.png"
-// import page from "../page1/page"
-// import page2 from "../page2/page"
-// import page3 from "../page3/page"
-// import page4 from "../page4/page"
 import web from "../asset/web.png"
 import mouse from "../asset/mou.png"
 import ai from "../asset/ai.png"
